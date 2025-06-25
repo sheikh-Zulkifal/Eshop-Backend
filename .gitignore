@@ -1,7 +1,47 @@
-# node_modules
+# Node modules
 node_modules/
-# config folder env file
 
-config/.env
-#upload folder
-upload/
+# Build outputs
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv files (sensitive info)
+.env
+.env.*.local
+
+# Uploads and user files
+uploads/
+
+# OS & Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Local env & config folders
+config/*.env
+
+# React dev server output
+*.local
+
+# Next.js (if you're using it)
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Mac system files
+*.DS_Store
+
+# Optional: Ignore .gitignore itself (not usually recommended)
+# .gitignore
